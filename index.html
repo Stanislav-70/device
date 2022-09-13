@@ -16,8 +16,21 @@
       <form class="search-form" action="#">
           <span class="icon-search visually-hidden">Поиск</span>
           <i class="fa fa-search"></i>
-          <input required placeholder="Поиск по сайту" type="search">
+          <input required placeholder="Поиск по сайту" type="search"></input>
           <input class="button search-button" value="Найти" type="submit"></input>
+      </form>
+
+      <form class="catalog-form" action="">
+        <button class="catalog-toggler-text" type="button">Каталог товаров</button>
+        <button class="catalog-toggler-icon visually-hidden" type="button">Подменю</button>
+        <select name="catalog-section" id="">
+          <option value="Моноподы для cелфи" class="catalog-section-item">Моноподы для cелфи</option>
+          <option value="Виртуальная реальность" class="catalog-section-item">Виртуальная реальность</option>
+          <option value="Экшн-камеры" class="catalog-section-item">Экшн-камеры</option>
+          <option value="Фитнес-браслеты" class="catalog-section-item">Фитнес-браслеты</option>
+          <option value="Умные часы" class="catalog-section-item">Умные часы</option>
+          <option value="Квадрокоптеры" class="catalog-section-item">Квадрокоптеры</option>
+        </select>
       </form>
 
       <div class="user-menu">
@@ -30,11 +43,6 @@
       </div>
 
       <div class="main-menu">
-          <a class="catalog-toggler" href="">
-            <span class="catalog-toggler-title">Каталог товаров</span>
-            <span class="visually-hidden">Подменю</span>
-          </a>
-
           <ul class="menu">
             <li class="menu-item">
               <a class="menu-link" href="">Доставка</a>
@@ -46,38 +54,7 @@
               <a class="menu-link" href="">Контакты</a>
             </li>
           </ul>
-          <ul class="submenu">
-            <li class="submenu-item">
-              <a class="submenu-link" href="">
-                Виртуальная реальность
-              </a>
-            </li>
-            <li class="submenu-item">
-              <a class="submenu-link" href="">
-                Моноподы для cелфи
-              </a>
-            </li>
-            <li class="submenu-item">
-              <a class="submenu-link" href="">
-                Экшн-камеры
-              </a>
-            </li>
-            <li class="submenu-item">
-              <a class="submenu-link" href="">
-                Фитнес-браслеты
-              </a>
-            </li>
-            <li class="submenu-item">
-              <a class="submenu-link" href="">
-                Умные часы
-              </a>
-            </li>
-            <li class="submenu-item">
-              <a class="submenu-link" href="">
-                Квадрокоптеры
-              </a>
-            </li>
-          </ul>
+
       </div>
     </nav>
   </header>
