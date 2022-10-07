@@ -52,9 +52,18 @@ img {
   background-color: #fff;
 
   font-family: "Rubik", sans-serif;
-  font-style: 16px;
+  font-size: 16px;
 }
 
-body {
-  height: 100%;
+.page-body {
+  display: flex;
+  flex-direction: column;
+  width: 1160px;
+  min-height: 100%;
+  margin: 0 auto;
+  background-color: #F0F0F0;
+}
+
+.page-main {
+  flex-grow: 1;
 }
