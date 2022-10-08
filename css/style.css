@@ -67,3 +67,25 @@ img {
 .page-main {
   flex-grow: 1;
 }
+
+.header-nav {
+  margin: 40px auto 0;
+  background-color: #FFE17F;
+}
+.logo {
+  padding: 4px 895px 30px 60px;
+}
+
+.search {
+  display: flex;
+}
+
+.search-text {
+  width: 359px;
+  height: 40px;
+}
+
+.search-button {
+  width: 160px;
+  height: 40px;
+}
